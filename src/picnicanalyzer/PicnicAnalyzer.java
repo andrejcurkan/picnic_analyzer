@@ -31,9 +31,9 @@ public class PicnicAnalyzer {
     }
 
     public static void main(String[] args) {
-        PicnicAnalyzer analyzer = new PicnicAnalyzer(new FileWordCounter("picnicanalyzer/input.txt"),
-                new FileLongestWordFinder("picnicanalyzer/input.txt"),
-                new FileWordFrequencyCalculator("picnicanalyzer/input.txt"));
+        PicnicAnalyzer analyzer = new PicnicAnalyzer(new FileWordCounter("input.txt"),
+                new FileLongestWordFinder("input.txt"),
+                new FileWordFrequencyCalculator("input.txt"));
         analyzer.analyze();
     }
 }
